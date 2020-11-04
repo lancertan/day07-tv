@@ -1,0 +1,9 @@
+<h2>List of Shows</h2>
+
+<ul>
+    {{#each shows}}
+    <li>
+        <a href="/shows/{{ this.tvid }}">{{ this.name }}</a>
+    </li>
+    {{/each}}
+</ul>
